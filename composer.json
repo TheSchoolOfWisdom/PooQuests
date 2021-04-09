@@ -1,0 +1,20 @@
+{
+    "name": "magomed_deniev/poo",
+    "type": "twig",
+    "require": {
+        "twig/twig": "^2.12"
+    },
+    "authors": [
+        {
+            "name": "Magomed Deniev",
+            "email": "magomed.deniev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vehicle\\": "Vehicle/",
+            "HighWay\\": "HighWay/",
+            "Interfaces\\": "Interfaces/"
+        }
+    }
+}
